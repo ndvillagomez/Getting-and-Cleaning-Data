@@ -1,0 +1,129 @@
+CodeBook - Tidy Data Set for "Getting and Cleaning Data" Coursera class
+
+This tidy data set includes a column for subject reference, activity reference, and 86 columns of mean and standard deviation data from the raw data set, summaraized and averaged by subject and activity. The variables comprising the 86 columns are time and frequency domain variables for mean and standard deviation measurements.
+
+Information about the raw data set can be found at:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+
+Subject 2-digits
+  The experiments were carried out with a group of 30 volunteers within an age bracket of 
+  19-48 years. 
+  
+  values = 01-30
+  
+Activity  1-digit
+  Each person performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
+  Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 
+  3-axial angular velocity at a constant rate of 50Hz. 
+  
+  values:
+  
+  1 WALKING
+  2 WALKING_UPSTAIRS
+  3 WALKING_DOWNSTAIRS
+  4 SITTING
+  5 STANDING
+  6 LAYING
+
+The remaining 79 columns contain numeric values representing calculated means for corresponding variables, by subject and by activity. 
+
+TimedomainBodyAccelerationMeanXaxis
+TimedomainBodyAccelerationMeanYaxis
+TimedomainBodyAccelerationMeanZaxis
+TimedomainBodyAccerlerationStdevXais
+TimedomainBodyAccerlerationStdevYxis
+TimedomainBodyAccelerationStdevZxis
+
+TimedomainGravityAccerlerationMeanXaxis
+TimedomainGravityAccerlerationMeanYaxis
+TimedomainGravityAccerlerationMeanZaxis
+TimedomainGravityAccerlerationStdevXaxis
+TimedomainGravityAccerlerationStdevYaxis
+TimedomainGravityAccelerationStdevZaxis
+
+TimedomainBodyAccelerationJerkMeanXaxis
+TimedomainBodyAccelerationJerkMeanYaxis
+TimedomainBodyAccelerationJerkMeanZaxis
+TimedomainBodyAccelerationJerkStdevXaxis
+TimedomainBodyAccelerationJerkStdevYaxis
+TimedomainBodyAccelerationJerkStdevZaxis
+
+TimedomainBodyGyroMeanXaxis
+TimedomainBodyGyroMeanYaxis
+TimedomainBodyGyroMeanZaxis
+TimedomainBodyGyroStdevXaxis
+TimedomainBodyGyroStdevYaxis
+TimedomainBodyGyroStdevZaxis
+
+TimedomainBodyGyroJerkMeanXaxis
+TimedomainBodyGyroJerkMeanYaxis
+TimedomainBodyGyroJerkMeanZaxis
+TimedomainBodyGyroJerkStdevXaxis
+TimedomainBodyGyroJerkStdevYaxis
+TimedomainBodyGyroJerkStdevZaxis
+
+TimedomainBodyAccelerationMagMean
+TimedomainBodyAccelerationMagStdev
+
+TimedomainGravityAccelerationMagMean
+TimedomainGravityAccelerationMagStdev
+
+TimedomainBodyAccelerationJerkMagMean
+TimedomainBodyAccelerationJerkMagStdev
+
+TimedomainBodyGyroMagMean
+TimedomainBodyGyroMagStd
+
+TimedomainBodyGyroJerkMagMean
+TimedomainBodyGyroJerkMagStdev
+
+FreqdomainBodyAccelerationMeanXaxis
+FreqdomainBodyAccelerationMeanYaxis
+FreqdomainBodyAccelerationMeanZaxis
+FreqdomainBodyAccelerationStdevXaxis
+FreqdomainBodyAccelerationStdevYaxis
+FreqdomainBodyAccelerationStdevZaxis
+
+FreqdomainBodyAccelerationMeanFreqXaxis
+FreqdomainBodyAccelerationMeanFreqYaxis
+FreqdomainBodyAccelerationMeanFreqZaxis
+
+FreqdomainBodyAccelerationJerkMeanXaxis
+FreqdomainBodyAccelerationJerkMeanYaxis
+FreqdomainBodyAccelerationJerkMeanZaxis
+FreqdomainBodyAccelerationJerkStdevXaxis
+FreqdomainBodyAccelerationJerkStdevYaxis
+FreqdomainBodyAccelerationJerkStdevZaxis
+
+FreqdomainBodyAccelerationJerkMeanFreqXaxis
+FreqdomainBodyAccelerationJerkMeanFreqYaxis
+FreqdomainBodyAccelerationJerkMeanFreqZaxis
+
+FreqdomainBodyGyroMeanXaxis
+FreqdomainBodyGyroMeanYaxis
+FreqdomainBodyGyroMeanZaxis
+FreqdomainBodyGyroStdevXaxis
+FreqdomainBodyGyroStdevYaxis
+FreqdomainBodyGyroStdevZaxis
+
+FreqdomainBodyGyroMeanFreqXaxis
+FreqdomainBodyGyroMeanFreqYaxis
+FreqdomainBodyGyroMeanFreqZaxis
+
+FreqdomainBodyAccelerationMagMean
+FreqdomainBodyAccelerationMagStdev
+FreqdomainBodyAccelerationMagMeanFreq
+
+FreqdomainBodyBodyAccelerationJerkMagMean
+FreqdomainBodyBodyAccelerationJerkMagStdev
+FreqdomainBodyBodyAccelerationJerkMagMeanFreq
+
+FreqdomainBodyBodyGyroMagMean
+FreqdomainBodyBodyGyroMagStdev
+FreqdomainBodyBodyGyroMagMeanFreq
+
+FreqdomainBodyBodyGyroJerkMagMean
+FreqdomainBodyBodyGyroJerkMagStdev
+FreqdomainBodyBodyGyroJerkMagMeanFreq
+
